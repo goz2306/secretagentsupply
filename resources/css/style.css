@@ -30,6 +30,7 @@ header{
   flex-direction: column;
   background-image: url("../images/moto.jpeg");
   background-size: cover;
+  background-position: center;
   height: 25rem;
   width: 100%;
   align-items: center;

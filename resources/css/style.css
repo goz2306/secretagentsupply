@@ -106,7 +106,6 @@ nav{
 }
 .info{
   width: 35%;
-  display: inline-block;
 }
 .location{
   float:left;
@@ -143,7 +142,6 @@ footer{
   }
   .product{
     width:47%;
-    flex-shrink:1;
   }
   .glasses{
     display:none;
@@ -156,5 +154,46 @@ footer{
     padding: 0.75rem 0;
     margin: 0 auto;
   }
-
+}
+@media only screen and (max-width: 470px){
+  .main-banner{
+    height: 15rem;
+  }
+  .new-arrival{
+    width: 100%;
+    margin-top: 10rem;
+  }
+  .new-arrival .text-content{
+    padding: 1rem 0 1rem 2rem;
+  }
+  .new-arrival span{
+    font-size: 0.77rem;
+  }
+  .new-arrival h1{
+    font-size: 1rem;
+  }
+  .watch{
+    display: none;
+  }
+  .product-grid{
+    justify-content: center;
+  }
+  .product{
+    width: 90%;
+  }
+  .info{
+    display:block;
+    width: 90%;
+    padding-bottom: 0.5rem;
+    margin: 0 auto;
+  }
+  .location{
+    float: none;
+  }
+  .hours{
+    float: none;
+  }
+  footer{
+    text-align: center;
+  }
 }
